@@ -1,0 +1,71 @@
+*{
+    display: flexbox;
+}
+body{
+    background-image: url("Gemini_Generated_Image_1jm7321jm7321jm7.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.container{
+    /*align-content: center;*/
+    border-width: 3px;
+    height: 400px;
+    width: 500px;
+    margin: auto;
+    border-color: rgb(165, 22, 22);
+    background-color: rgb(178, 168, 168);
+}
+.head{
+    padding-left:60px ;
+    padding-top: 10px;
+    height: 70px;
+    width: fit-content;
+}
+.Head1{
+    padding-left: 25px;
+}
+
+.input-group1 {
+    padding-top: 100px;
+    margin-bottom: 10px;
+    width: 400px;
+    padding-left: 40px;
+}
+.input-group2{
+    padding-top: 10px;
+    margin-bottom: 10px;
+    width: 400px;
+    padding-left: 40px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border-width: 2px;
+    border-radius: 3px;
+    cursor: pointer;
+    border-color: aquamarine;
+}
+
+button:hover {
+    background-color: #3e8e41;
+}
+
+input[disabled] {
+    background-color: #f2f2f2;
+}
